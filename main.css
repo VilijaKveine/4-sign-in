@@ -1,25 +1,75 @@
 body,
 body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+body{
+    background-color: darkturquoise;
+    background-image:url(Sign\ in\ be\ raidziu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    margin-left: calc( (100% - 1000px) /2 );
+}
+    main{
+        background-color: brown;
+        display: inline-block;
+        height: 100px;
+        width: 1000px;
+        margin-left: calc( (100% - 1000px) /2 );
+}
+        kalnai{
+            background-image:url();
+            display: inline block;
+            height: 450px;
+            width: 450px;
+            margin-top: 80px;
+            float: left;
+
+}
+            h1{
+                display: inline block;
+                width: 100%;
+                font-size: 35px;
+        
+        }
+            a{
+                display: inline block;
+                width: 50%;
+                font-size: 25px;
+                
+        }
+    form{
+        background-color: darkblue;
+        display: inline block;
+        height: 550px;
+        width: 550px;
+        margin-top: 15px;
+        float: right;
+
 }
 
-main{
-
-}
-
-kalnai{
-
-}
-
-form{
-
-}
-
-.mygtukai{
-    display: flex;
-    flex-direction: row;
- }
+        div{
+            background-color: darkgrey;
+            display: inline block;
+    }
+    
+        input{
+            background-color: darkorchid;
+            display: inline block;
+    }  
+        .mygtukai{
+            display: flex;
+            flex-direction: row;
+            width: 30%;
+            font-size: 15px;
+        }
+            .mygtukas{
+                display: inline block;
+        }
+            p{
+                display: inline block;
+        }
+            .mygtukass{
+                display: inline block;
+        }
